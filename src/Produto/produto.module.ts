@@ -1,6 +1,6 @@
 import { Module } from "@nestjs/common";
-import { ProdutoController } from "./Controller/produto.controller";
-import { ProdutoRepository } from "./Repository/produto.repository";
+import { ProdutoController } from "./produto.controller";
+import { ProdutoRepository } from "./produto.repository";
 
 @Module({
     controllers: [ProdutoController],

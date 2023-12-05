@@ -9,4 +9,8 @@ export class criaProdutoDTO{
     @IsNumber()
     @IsNotEmpty()
     valor: number;
+
+    @IsNumber()
+    @IsNotEmpty()
+    quantidade: number;
 }
