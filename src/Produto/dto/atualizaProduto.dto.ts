@@ -1,6 +1,6 @@
 import { IsNotEmpty, IsNumber, IsString, IsUUID, Min } from "class-validator";
 
-export class criaProdutoDTO{
+export class AtualizaProdutoDTO{
     @IsUUID(undefined, {message: 'ID de usuario inválido'})
     usuarioId: string
 
